@@ -1,41 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
+
 <body>
-    <h1>
-        <img src="rs-photo.jpg" alt="avatar" width="77" height="77">
-        Irakli Gogichaishvili
-    </h1>
-    <hr>
-    <h3>Phone: +995 599 796611</h3>
-    <h3>E-mail: <a href="mailto: gogicha@gmail.com">gogicha@gmail.com</a></h3>
-    <h3>GitHub link: <a href="https://github.com/gogicha007">https://github.com/gogicha007</a></h3>
-    <hr>
-    <h2>Profile</h2>
-    <h3>I am an aspiring Python developer. Have 1+ year of experience with Python, Django. Have good experience in
-        PostgreSQL(PostGIS) database development and programming. Created mobile app for local water supply company,
-        front-end on React Native, backend-Django API. As for my other skills and experience, I have been working as a
-        financial manager/analyst and consultant for many years. Now looking for a chance to change my career to a
-        software developer, love coding very much.</h3>
-    <hr>
-    <h2>Code</h2>
-    <pre>
-        const arr = [1, 2, 3, 'john doe']
-        arr.push(4)
-        arr.unshift(0)
-        arr.pop()
-        arr.shift()
-        for (const item of arr) {
-            console.log(item)
-        }
-    </pre>
-    <hr>
-    <h2>Languages</h2>
-    <h3>English-Fluent, Russian-Fluent, Georgian-Native</h3>
+    <main>
+        <header>
+            <div class="header">
+                <img src="rs-photo.jpg" alt="my avatar">
+                <div class="name" style="text-align: center;">
+                    <h1 style="margin-bottom: 0;">Irakli Gogichaishvili</h1>
+                    <span>&mdash;&nbsp;&mdash;&nbsp;&mdash;</span>
+                    <h3 style="margin-top: 0;">Full-stack developer</h3>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <h2 style="margin-bottom: 0;">Contact</h2>
+            <ul>
+                <li><a>Phone: +995 599 796611</a></li>
+                <li><a href="mailto:gogicha@gmail.com">gogicha@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/irakli-gogichaishvili-7412371a">LinkedIn</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <h2>Profile</h2>
+        <h4>I’m software developer with 1.5+ year of experience in Python, Django(REST API), React Native,
+            JavaScript, HTML/CSS, GIT. Have good experience in PostgreSQL(PostGIS) database development and programming.
+            Created many backend and frontend modules on Django/PostgreSQL for a large web application
+            project of a regional water supply company. Also made mobile application using React Native with Django
+            API. As for my other skills and experience, I have been working as a financial manager/analyst and
+            consultant for many years. Now looking for a chance to change my career to a software developer, love
+            coding very much.</h4>
+        <hr>
+        <h2>Code</h2>
+        <pre>
+            <code style="padding-bottom: 0; padding-top: 0;">
+                const arr = [1, 2, 3, 'john doe']
+                arr.push(4)
+                arr.unshift(0)
+                arr.pop()
+                arr.shift()
+                for (const item of arr) {
+                    console.log(item)
+                }
+            </code>
+        </pre>
+        <hr>
+        <h2>Link to my code</h2>
+        <h4><a href="https://github.com/gogicha007/Numwords_KA">The code converts numbers to Georgian words, up to
+                billion.</a></h4>
+        <hr>
+        <h2>Education</h2>
+        <h3>Georgian Technical University, Bachelor of Engineering</h3>
+        <hr>
+        <h2>Languages</h2>
+        <h3>English-Fluent, Russian-Fluent, Georgian-Native</h3>
+        <hr>
+        <footer>
+            <div class="footer">
+                <h4>GitHub link: <a href="https://github.com/gogicha007">https://github.com/gogicha007</a></h4>
+                <h4>2023</h4>
+            </div>
+            <div class="rslogo">
+                <a href="https://rs.school/js/">
+                    <img src="https://rs.school/images/rs_school_js.svg" alt="rs logo" width="70" height="70">
+                </a>
+            </div>
+        </footer>
+    </main>
 </body>
+
 </html>
