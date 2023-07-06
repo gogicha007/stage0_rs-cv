@@ -1,0 +1,64 @@
+body {
+    font-family: Georgia, sans-serif;
+    margin-left: 250px;
+    margin-right:250px
+}
+header {
+    height: 170px;
+    background: #D3CCBF;
+}
+.header {
+    margin: auto;
+    width: 50%;
+}
+.header img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.header .name {
+    position: relative;
+    top: 40px;
+    left: 10%;
+}
+.footer {
+    float: left;
+}
+.rslogo {
+    float: right;
+    margin-right: 100px
+}
+h2 {
+    color: #999999;
+}
+h3 {
+    color: #191919;
+}
+pre {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: -120px;
+    padding-bottom: 0px;
+}
+
+@media (max-width:1290px) {
+    header {
+        height: 340px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header img {
+        float: none;
+    }
+    .header .name {
+        position: static;
+    }
+    
+}
+
+a {
+    color: blue;
+}
